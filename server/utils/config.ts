@@ -1,6 +1,7 @@
 import dotenv from 'dotenv'
 dotenv.config()
 
-const PORT = process.env.PORT
+const port = process.env.PORT
+const riddleApiKey = process.env.RIDDLE_API_KEY
 
-export {PORT}
+export { port, riddleApiKey }
