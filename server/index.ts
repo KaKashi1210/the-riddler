@@ -1,7 +1,7 @@
 import app from "./app";
-import { PORT } from "./utils/config";
+import { port } from "./utils/config";
 
-app.listen(PORT , () => {
-  console.log(`The app is running on http://localhost:${PORT}`)
-}) 
+app.listen(port, () => {
+  console.log(`The app is running on http://localhost:${port}`)
+})
 
