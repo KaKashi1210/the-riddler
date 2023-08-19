@@ -5,6 +5,10 @@ dotenv.config()
 
 const app = express()
 const port = process.env.PORT
+const exampleRouter =  require('./controllers/example.ts')
+
+app.use(express.json())
+app.use('/api/example',exampleRouter)
 
 app.get('/', (req, res) => {
   res.send('Express + Typescript Server')
