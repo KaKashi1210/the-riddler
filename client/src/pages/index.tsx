@@ -33,7 +33,7 @@ const Index = () => {
           <div className="bg-[#0d0d0d] text-center flex flex-col justify-center items-center py-16 px-14 ">
             <img src="https://avatars.githubusercontent.com/u/106504872?v=4" className="w-[50px] rounded-full my-4" />
             <h1 className="font-goblin-one text-[#ff595e] ">Aryan <span className="block">Bramhane</span> </h1>
-            <p className="text-xs">Frontend Devloper</p>
+            <p className="text-xs text-[#ffca3a]">Frontend Devloper</p>
           </div>
         </div>
 
