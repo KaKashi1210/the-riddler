@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        'vt323': ['VT323', 'monospace']
+        'vt323': ['VT323', 'monospace'],
+        'goblin-one':['Goblin One', 'cursive'],
+        'manrope':['Manrope', 'sans-serif']
       },
     },
   },
