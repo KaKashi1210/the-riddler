@@ -1,11 +1,15 @@
+import { Route, Routes } from 'react-router-dom'
 import Index from './pages'
+import Login from './pages/chatLogic/Login'
 
-function App() {
+const App = () => {
      
-  
     return(
     <>
-      <Index/>
+    <Routes>
+     <Route path="/" element={<Index/>} />
+     <Route path="chat" element={<Login/>} />
+    </Routes>
     </>
 
   )

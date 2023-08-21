@@ -1,5 +1,14 @@
+
 const Login = () => {
-  return <h1 className="text-black">login logic</h1>
+
+  
+
+  return (
+    <>
+      <h1>login logic</h1>
+    </>
+  )
+
 }
 
 
